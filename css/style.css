@@ -73,17 +73,21 @@ h5 {
 .menu {
 	text-transform: uppercase;
 	padding-top: 26px;
-	padding-bottom: 26px;
-	color: #f3f1ee;
-	font-size: 14px;
-	font-weight: 800;
-	text-shadow: 2px 2px #7a736e;
+	padding-bottom: 26px;	
 }
 
 li {
 	display: inline;
 	margin-left: 23px;
 	margin-right: 23px;
+}
+
+li a {
+	text-decoration: none;
+	color: #f3f1ee;
+	font-size: 14px;
+	font-weight: 800;
+	text-shadow: 2px 2px #7a736e;
 }
 
 li:first-child {
